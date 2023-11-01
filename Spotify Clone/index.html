@@ -34,19 +34,17 @@
           </div>
         </div>
 
-        <div class="library nav-option">
+        <div class="library">
           <div class="options">
-            <div class="lib-option">
+            <div class="lib-option nav-option">
               <img src="./assets/library_icon.png" />
               <a href="#">Your Library</a>
             </div>
-
             <div class="icons">
               <i class="fa-solid fa-plus"></i>
               <i class="fa-solid fa-arrow-right"></i>
             </div>
           </div>
-
           <div class="lib-box">
             <div class="box">
               <p class="box-p1">Create your first playlist</p>
@@ -61,8 +59,133 @@
           </div>
         </div>
       </div>
+
+      <div class="main-content">
+        <div class="sticky-nav">
+          <div class="sticky-nav-icons">
+            <img src="./assets/backward_icon.png" />
+            <img src="./assets/forward_icon.png" class="hide" />
+          </div>
+          <div class="sticky-nav-options">
+            <button class="badge nav-item hide">Explore Premium</button>
+            <button class="badge nav-item dark-badge">
+              <i
+                class="fa-regular fa-circle-down nav-item"
+                style="margin-right: 5px"
+              ></i
+              >Install App
+            </button>
+            <i class="fa-regular fa-user"></i>
+          </div>
+        </div>
+
+        <h2>Recently Played</h2>
+        <div class="cards-container">
+          <div class="card">
+            <img src="./assets/tayloeswift.jpeg" class="card-img" />
+            <p class="card-title">Today's Top Hits</p>
+            <p class="card-info">Taylor Swift on top of the Hottest 50! ...</p>
+          </div>
+          <div class="card">
+            <img src="./assets/vivalatino.jpeg" class="card-img" />
+            <p class="card-title">Viva Latino</p>
+            <p class="card-info">
+              Today's top Latin hits, elevando nuestra ...
+            </p>
+          </div>
+          <div class="card">
+            <img src="./assets/megahitmix.jpeg" class="card-img" />
+            <p class="card-title">Mega Hit Mix</p>
+            <p class="card-info">
+              A mega mix of 75 favorites from the last few years! ...
+            </p>
+          </div>
+        </div>
+
+        <h2>Trending now near you</h2>
+        <div class="cards-container">
+          <div class="card">
+            <img src="./assets/lofivibe.jpeg" class="card-img" />
+            <p class="card-title">Lofi Vibe Hindi</p>
+            <p class="card-info">Inhale & exhale to the beats of Lofi. ...</p>
+          </div>
+          <div class="card">
+            <img src="./assets/chaiandclassics.jpeg" class="card-img" />
+            <p class="card-title">Chai & Classics</p>
+            <p class="card-info">
+              A cup of tea served with some retro tunes ...
+            </p>
+          </div>
+          <div class="card">
+            <img src="./assets/bollywoodrock.jpeg" class="card-img" />
+            <p class="card-title">Bollywood Rock</p>
+            <p class="card-info">Listen to what Bollywood is rocking to ...</p>
+          </div>
+          <div class="card">
+            <img src="./assets/NewMusicHindi.jpeg" class="card-img" />
+            <p class="card-title">New Music Hindi</p>
+            <p class="card-info">'Satranga' from Animal is out now, and ...</p>
+          </div>
+        </div>
+
+        <h2>Featured Charts</h2>
+        <div class="cards-container">
+          <div class="card">
+            <img src="./assets/card5img.jpeg" class="card-img" />
+            <p class="card-title">Top Songs - Global</p>
+            <p class="card-info">Your daily update of the most played ...</p>
+          </div>
+          <div class="card">
+            <img src="./assets/card6img.jpeg" class="card-img" />
+            <p class="card-title">Top Songs - India</p>
+            <p class="card-info">Your daily update of the most played ...</p>
+          </div>
+          <div class="card">
+            <img src="./assets/card1img.jpeg" class="card-img" />
+            <p class="card-title">Top 50 - Global</p>
+            <p class="card-info">Your daily update of the most played ...</p>
+          </div>
+        </div>
+        <div class="footer">
+          <div class="line"></div>
+        </div>
+      </div>
+
+      <div class="music-player">
+        <div class="album">
+          <img src="./assets/bollywoodrock.jpeg" class="album-img" />
+          <div class="album-info-box">
+            <p class="album-title">Bulleya</p>
+            <p class="album-info">Pritam</p>
+          </div>
+          <i class="fa-regular fa-heart"></i>
+        </div>
+        <div class="player">
+          <div class="player-controls">
+            <img src="./assets/player_icon1.png" class="player-control-icon" />
+            <img src="./assets/player_icon2.png" class="player-control-icon" />
+            <img
+              src="./assets/player_icon3.png"
+              class="player-control-icon"
+              style="opacity: 1; height: 2rem"
+            />
+            <img src="./assets/player_icon4.png" class="player-control-icon" />
+            <img src="./assets/player_icon5.png" class="player-control-icon" />
+          </div>
+          <div class="playback-bar">
+            <span class="curr-time">00:00</span>
+            <input
+              type="range"
+              min="0"
+              max="100"
+              class="progress-bar"
+              step="1"
+            />
+            <span class="tot-time">3:33</span>
+          </div>
+        </div>
+        <div class="controls"></div>
+      </div>
     </div>
-    <div class="main-content"></div>
-    <div class="music-player"></div>
   </body>
 </html>
